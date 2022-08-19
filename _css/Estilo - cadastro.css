@@ -1,0 +1,167 @@
+@charset "UTF-8";
+
+/* Formatação do Corpo*/
+body {
+    font-family: Arial;
+     background-color: black;
+     color: #ffffffff;
+ }
+ 
+ /*Formatação da Capa */
+
+ img#capa {
+    width: 1300px;
+    height: 800px;
+}
+
+ /*Formatação do Menu */
+ 
+ nav#menu {
+     display: block;
+     width: 600px;
+     height: 50px;
+     margin-left: 350px;
+     margin-bottom: 50px;
+ }
+ 
+ nav#menu ul {
+     display: block;
+     list-style: none;
+     text-transform: uppercase;
+ }
+ 
+ nav#menu li {
+     display: inline-block;
+     margin: 4px; 
+     padding: 8px 6px;
+     width: 100px;
+     background: rgb(170, 170, 33);
+     border: solid 2px #ffffffff;
+     border-radius: 5px;
+     text-align: center;
+     
+ }
+ 
+ nav#menu a {
+     text-decoration: none;
+     color: #ffffffff;
+     font-family: ;
+ }
+ 
+ nav#menu a:hover {
+     color: #000000;
+ }
+ 
+ nav#menu li:hover {
+     background: rgb(229, 255, 0);
+     border-color: black;
+ } 
+ 
+ /*Formatação do Formulário */
+
+div#formulario {
+    display: block;
+    width: 600px;
+    margin-left: 350px;
+    background-color: rgb(2, 2, 2) ;
+    padding-left: 10px;
+}
+
+section#usuario {
+    display: block;
+    width: 600px;
+    background-color: rgb(2, 2, 2) ;
+    border: solid 5px #ffffffff;
+    padding-left: 10px;
+
+}
+
+fieldset#sexo{
+    width: 100px;
+    text-align: justify;
+}
+
+section#contato {
+    display: block;
+    width: 600px;
+    background-color: rgb(2, 2, 2) ;
+    border: solid 5px #ffffffff;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+
+section#endereco {
+    display: block;
+    width: 600px;
+    background-color: rgb(2, 2, 2) ;
+    border: solid 5px #ffffffff;
+    padding-left: 10px;
+    margin-top: 20px;
+
+}
+
+h1 {
+    color: rgb(229, 255, 0); 
+    text-align: center;
+}
+input#botao {
+    text-align: center;
+    margin-left: 205px;
+    margin-top: 20px;
+}
+
+
+/*Formatação Dados da Hmaburgueria */
+
+div#dados{
+    display: block;
+    text-align: justify;
+    width: 600px;
+    margin-left: 360px;
+    background-color: rgb(2, 2, 2) ;
+    border: solid 5px #ffffffff;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+
+h2 {
+    color: rgb(229, 255, 0); 
+    text-align: center;
+}
+ 
+ /* Formatação do Rodapé */
+
+ footer#rodape {
+     display: block;
+     width: 1200px;
+     height: 50px;
+     margin-top: 200px;
+     padding-left: 550px;
+     color: #ffffffff;   
+     align-items: center;
+ }
+ 
+ footer#rodape p#copy {
+     text-align: justify;
+     color: yellow;
+ }
+ 
+ footer#rodape p#links {
+     text-align: justify;
+     color: yellow;
+     padding-left: 50px;
+ }
+ 
+ footer#rodape a {
+     text-decoration: none;
+     color: yellow;
+ }
+ 
+ footer#rodape img#bsl{
+     width: 40px;
+     height: 40px;
+     margin-left: -80px;
+     margin-top: -200px;
+     padding-bottom: 50px;
+     padding-left: 35px;
+ }

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy´s Burguer - Cadastro </title>
+    <link rel= "icon" href="_imagens/Favicon---Cadastro-Hamburgueria.png"/>
+    <link rel="stylesheet" type="text/css" href="_css/Estilo - cadastro.css">
+    <script language="javascript" src="_javacsript/cadastro.js"></script>
+</head>
+
+<body>
+     
+<header id="cabecalho">
+    <img id="Capa" src="_imagens/2y8tgu707qvjjcoy8hyc9ggq0.jpg">
+</header> 
+
+<nav id="menu"> 
+    <ul>
+        <li><a href="Index - Home page.html">Home</a></li>    
+        <li><a href="cardápio.html">Cardápio</a></li>
+        <li><a href="Historia.html">Sobre nós</a></li>
+        <li><a href="Cadastro.html">Cadastro</a></li>
+    </ul>
+</nav>
+
+<div id="formulario">
+    <form method="post" id="fcontato" action="mailto:contato@hamburgueria.com" oninput=""></form>
+    <h1><strong>Cadastro de Clientes</strong></h1>
+            
+    <section id="usuario">
+        <h2><strong>Dados Pessoais:</strong></h2>
+        <p><label for="cNome">Nome:</label><input type="text" name="tNome" id="cNome" size="20" maxlength="30" placeholder="Nome Completo"/></p>
+        <fieldset id="sexo"><legend>Sexo:</legend>
+            <input type="radio" name="tsexo" id="cMasc" checked /> <label for="cMasc">Masculino</label>
+            <input type="radio" name="tsexo" id="cFem" /> <label for="cFem">Feminino</label></fieldset>
+        <p><label for="cNasc">Data de Nascimento:</label></p><input type="date" name="tNasc" id="cNasc" size="6" maxlength="6" placeholder="dd/mm/aa"/>
+        <p><label for="ccpf">CPF:</label><input type="text" name="tcpf" id="ccpf" size="20" maxlength="13" placeholder="CPF"/></p>
+    </section> 
+            
+    <section id="contato">
+        <h2><strong>Dados de Contato:</strong></h2>
+        <p><label for="ccel">Celular:</label><input type="number" name="tcel" id="cel" size="30" maxlength="14" placeholder="Digite seu Celular"/>
+        <input type="radio" name="tconfirm" id="cocnfimr"/><label for="cconfirm">Whatsapp</label></p>    
+        <p><label for="cMail">E-mail:</label><input type="email" name="tMail" id="cMail" size="30" maxlength="40" placeholder="Digite seu E-mail"/></p>    
+    </section>
+
+    <section id="endereco">
+        <h2><strong>Dados de Endereço:</strong></h2>
+        <p><label for="cRua">Logradouro:</label><input type="text" name="tRua" id="cRua" size="20" maxlength="80" placeholder="Rua,Avenida,Travessa..."/></p>
+        <p><label for="cNum">Número:</label><input type="number" name="tNum" id="cNum" min="0" max="9999"/></p>
+        <p><label for="cbairro">Bairro:</label><input type="text" name="tbairro" id="cbairro" size="20" maxlength="30" placeholder="Bairro"/></p>
+        <p><label for="cNum">CEP:</label><input type="number" name="tNum" id="cNum" min="0" max="99999999" placeholder="00000-000" /></p>
+        <p><label for="cestado">Estado:</label><input type="text" name="testado" id="cestado" size="20" maxlength="30" placeholder="Estado"/></p>
+        <p><label for="cpais">País:</label><input type="text" name="tpais" id="cpais" size="20" maxlength="30" placeholder="País"/></p>
+    </section> 
+
+    <input id="botao" type="image" name="tEnviar" src="_imagens/Botão-de-Cadastro-Hamburgueria.png" onclick="function cadastrar()"/> 
+
+</div>
+
+<div id="dados">
+    <h2>Dados da Hamburgueria</h2>
+    <p><strong>Nosso Endereço é:</strong></p>
+    <p>Rua do Hamburguer, 2008 Vila da Batata - São Paulo Brasil</p>
+    <p><strong>E-mail:</strong></p>
+    <p>Contato@happysburguer.com.br</p>
+    <p><strong>Tel:</strong></p>
+    <p>55 (11) 9.0000-0000</p>
+    <p>Adiciono nosso Número em sua agenda e receba nossas New´s por Whatsapp</p>
+</div>
+
+<footer id="rodape">
+    <p id="copy"> Copyright 2022 - By Rafael Barbosa</p>
+    <p id="links"><a href="http:www.instagram.com.br" target="_blank">Instagram</a> | <a href="http:www.facebook.com.br" target="_blank">Facebook</a></p>
+    <img id="bsl" src="_imagens/Burguer + Shake.png">
+</footer>
+
+</body>
+</html>     

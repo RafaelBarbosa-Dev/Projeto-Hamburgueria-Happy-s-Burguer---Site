@@ -1,0 +1,164 @@
+@charset "UTF-8";
+
+/* Formatação do Corpo*/
+body {
+    font-family: Arial;
+     background-color: black;
+     color: #ffffffff;
+ }
+ 
+ /*Formatação da Capa */
+ 
+ img#capa {
+     width: 1300px;
+     height: 800px;
+ }
+ 
+ /*Formatação do Menu */
+ 
+ nav#menu {
+     display: block;
+     width: 600px;
+     height: 50px;
+     margin-left: 350px;
+     margin-bottom: 50px;
+ }
+ 
+ nav#menu ul {
+     display: block;
+     list-style: none;
+     text-transform: uppercase;
+ }
+ 
+ nav#menu li {
+     display: inline-block;
+     margin: 4px; 
+     padding: 8px 6px;
+     width: 100px;
+     background: rgb(170, 170, 33);
+     border: solid 2px #ffffffff;
+     border-radius: 5px;
+     text-align: center;
+     
+ }
+ 
+ nav#menu a {
+     text-decoration: none;
+     color: #ffffffff;
+     font-family: ;
+ }
+ 
+ nav#menu a:hover {
+     color: #000000;
+ }
+ 
+ nav#menu li:hover {
+     background: rgb(229, 255, 0);
+     border-color: black;
+ } 
+ 
+ /*Formatação das Seções */
+ 
+ section#top {
+     display: block;
+     width: 1330px;
+     height: 80px;
+ }
+
+ section#top h1 {
+    padding-left: 550px;
+    text-decoration: underline;
+ }
+ 
+ section#aside {
+     display: block;
+     width: 660px;
+     height: 1000px;
+ }
+
+ /* Fotos da Seção A */
+
+ img#foto1 , img#foto2 , img#foto3 , img#foto4 , img#foto5 , img#foto6 {
+    width: 250px;
+    height: 200px;
+    border: 2px solid #ffffffff;
+    border-radius: 5px;
+    margin-left: 250px;
+    margin-top: 15px;
+ }
+
+ /* Paragrafos da Seção A */
+
+ p#p1 , p#p2 , p#p3 , p#p4 , p#p5 , p#p6 {
+    text-align: justify;
+    text-align: center;
+    padding-left: 60px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    
+
+ }
+
+ section#bside {
+    display: block;
+    width: 660px;
+    height: 1000px;
+    float:right;
+    margin-top: -1000px;
+}
+
+/* Fotos da Seção B */
+
+img#foto7 , img#foto8 , img#foto9 , img#foto10 , img#foto11 , img#foto12 {
+    width: 250px;
+    height: 200px;
+    border: 2px solid #ffffffff;
+    border-radius: 5px;
+    margin-left: 200px;
+ }
+
+  /* Paragrafos da Seção B */
+
+  p#p7 , p#p8 , p#p9 , p#p10 , p#p11 , p#p12 {
+    text-align: justify;
+    text-align: center;
+
+}
+
+ 
+ /* Formatação do Rodapé */
+ 
+ footer#rodape {
+     display: block;
+     width: 1200px;
+     height: 50px;
+     margin-top: 1100px;
+     padding-left: 550px;
+     color: #ffffffff;   
+     align-items: center;
+ }
+ 
+ footer#rodape p#copy {
+     text-align: justify;
+     color: yellow;
+ }
+ 
+ footer#rodape p#links {
+     text-align: justify;
+     color: yellow;
+     padding-left: 50px;
+ }
+ 
+ footer#rodape a {
+     text-decoration: none;
+     color: yellow;
+ }
+ 
+ footer#rodape img#bsl{
+     width: 40px;
+     height: 40px;
+     margin-left: -80px;
+     margin-top: -200px;
+     padding-bottom: 50px;
+     padding-left: 35px;
+ }

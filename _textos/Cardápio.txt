@@ -1,0 +1,25 @@
+CARDÁPIO
+[Foto do Lanche - Happy´s Burguer]
+Pão de Brioche Tostado na Manteiga, Cebola Roxa Caramelizada com Molho Shoyo, Queijo Cheddar derretido, Burguer de 160g (Blend da Casa) e Maionese Verde da Casa. 
+[Foto do Lanche - Brie´s Burguer]
+Pão de Brioche Tostado na Manteiga, Geléia de Frutas Vermelhas, Queijo Tipo Brie derretido, Burguer de 160g (Blend da Casa). 
+[Foto do Lanche - Sausage Burguer]
+Pão de Brioche Tostado na Manteiga, Tiras de Bacon Defumado, Queijo Provolone derretido, Burguer de 160g de Linguíça Toscana (Blend da Casa) e Maionese Verde da Casa.  
+[Foto do Lanche - Salad Burguer]
+Pão de Brioche Tostado na Manteiga, Cebola Roxa,Tomate, Queijo Prato derretido, Burguer de 160g (Blend da Casa), Alface Americana e Maionese Verde da Casa. 
+[Foto do Lanche - BBQ Burguer]
+Pão de Brioche Tostado na Manteiga, 100g Costela Bovida Desfiada com Molho Barbecue, Queijo Cheddar derretido, Burguer de 160g (Blend da Casa) e Maionese Verde da Casa. 
+[Foto do Lanche - Egg Muffim Sndwich]
+Pão de Brioche Tostado na Manteiga, Tiras de Bacon Defumado, Egg Muffim, Queijo Cheddar derretido.  
+[Foto do Acompanhamento - Batata Frita Crinkle]
+200g Batata Frita Crinkle
+[Foto da Bebida - Coca Cola]
+350ml - Coca Cola
+[Foto da Bebida - Monster Energy]
+473ml - Monster Energy
+[Foto da Sobremesa - Banana Burguer]
+Pão Branco Povilhado com Açucar, Banana, Creme de Avelã (Nutella).
+[Foto da Sobremesa - Strawberry Burguer]
+Pão Branco Povilhado com Açucar, Morango, Creme de Avelã (Nutella).
+[Foto da Sobremesa - Cookies]
+100g Biscoito Cookie de Baunilha com Gotas de Chocolate.
