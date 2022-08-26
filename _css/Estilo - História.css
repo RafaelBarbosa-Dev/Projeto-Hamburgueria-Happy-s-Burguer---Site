@@ -5,32 +5,38 @@ body {
     font-family: Arial;
      background-color: black;
      color: #ffffffff;
+     max-width: 1200px;
  }
  
- /*Formatação da Capa */
+/*Formatação da Capa */
 
- img#capa {
-    width: 1300px;
-    height: 800px;
+header#cabecalho {
+    display: block;
+     width: 1200px;
+     height: 350px;
+     margin-left: 410px;
+     margin-top: 20px;
+     margin-bottom: 0px;
+
 }
 
- /*Formatação do Menu */
+/*Formatação do Menu */
  
- nav#menu {
+nav#menu {
      display: block;
      width: 600px;
      height: 50px;
      margin-left: 350px;
      margin-bottom: 50px;
- }
+}
  
- nav#menu ul {
+nav#menu ul {
      display: block;
      list-style: none;
      text-transform: uppercase;
- }
+}
  
- nav#menu li {
+nav#menu li {
      display: inline-block;
      margin: 4px; 
      padding: 8px 6px;
@@ -40,24 +46,24 @@ body {
      border-radius: 5px;
      text-align: center;
      
- }
+}
  
- nav#menu a {
+nav#menu a {
      text-decoration: none;
      color: #ffffffff;
      font-family: ;
- }
+}
  
- nav#menu a:hover {
+nav#menu a:hover {
      color: #000000;
- }
+}
  
- nav#menu li:hover {
+nav#menu li:hover {
      background: rgb(229, 255, 0);
      border-color: black;
- } 
+} 
  
- /*Formatação da Div = Historia */
+/*Formatação da Div = Historia */
 
 div#historia {
     display: block;
@@ -78,9 +84,9 @@ p {
    
 }
  
- /* Formatação do Rodapé */
+/* Formatação do Rodapé */
  
- footer#rodape {
+footer#rodape {
      display: block;
      width: 1200px;
      height: 50px;
@@ -88,29 +94,29 @@ p {
      padding-left: 550px;
      color: #ffffffff;   
      align-items: center;
- }
+}
  
- footer#rodape p#copy {
+footer#rodape p#copy {
      text-align: justify;
      color: yellow;
- }
+}
  
- footer#rodape p#links {
+footer#rodape p#links {
      text-align: justify;
      color: yellow;
      padding-left: 50px;
- }
+}
  
- footer#rodape a {
+footer#rodape a {
      text-decoration: none;
      color: yellow;
- }
+}
  
- footer#rodape img#bsl{
+footer#rodape img#bsl{
      width: 40px;
      height: 40px;
      margin-left: -80px;
      margin-top: -200px;
      padding-bottom: 50px;
      padding-left: 35px;
- }
+}

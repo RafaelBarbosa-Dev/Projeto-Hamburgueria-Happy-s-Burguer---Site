@@ -9,10 +9,15 @@ body {
  
  /*Formatação da Capa */
 
- img#capa {
-    width: 1300px;
-    height: 800px;
+header#cabecalho {
+    display: block;
+     max-width: 600px;
+     height: 350px;
+     margin-left: 380px;
+     margin-top: 20px;
+     margin-bottom: 80px;
 }
+
 
  /*Formatação do Menu */
  
